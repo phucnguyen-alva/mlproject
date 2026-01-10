@@ -1,10 +1,10 @@
+import streamlit as st
 st.set_page_config(
     page_title="NFL Fan Quiz",
     page_icon="🏈",
     layout="centered"
 )
 
-import streamlit as st
 import requests
 import time
 
