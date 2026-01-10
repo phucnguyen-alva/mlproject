@@ -471,13 +471,23 @@ if predict_btn:
             high_res = """
 <div class='resource-box'>
 <div class='resource-title'>NFL+ Premium</div>
-<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>All-22 coaches film & replays</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>All-22 coaches film & full replays</div>
 <a href='https://www.nfl.com/plus/' target='_blank' class='resource-link'>ACCESS FEED &rarr;</a>
 </div>
 <div class='resource-box'>
 <div class='resource-title'>Sunday Ticket</div>
 <div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Every out-of-market game live</div>
 <a href='https://tv.youtube.com/learn/nflsundayticket/' target='_blank' class='resource-link'>SUBSCRIBE &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>NFL Foundation</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Support youth football & community programs</div>
+<a href='https://www.nfl.com/causes/' target='_blank' class='resource-link'>GET INVOLVED &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>Inspire Change</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Join the movement for social justice</div>
+<a href='https://www.nfl.com/causes/inspire-change/' target='_blank' class='resource-link'>LEARN MORE &rarr;</a>
 </div>
 """
             med_res = """
@@ -488,8 +498,18 @@ if predict_btn:
 </div>
 <div class='resource-box'>
 <div class='resource-title'>Fantasy Football</div>
-<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Join a league today</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Make every game matter</div>
 <a href='https://fantasy.nfl.com/' target='_blank' class='resource-link'>DRAFT TEAM &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>NFL FLAG</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Play football your way — fun, inclusive, accessible</div>
+<a href='https://www.nflflag.com/' target='_blank' class='resource-link'>FIND A LEAGUE &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>Character Playbook</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Digital curriculum on relationships & life skills</div>
+<a href='https://www.nfl.com/causes/character-playbook/' target='_blank' class='resource-link'>EXPLORE &rarr;</a>
 </div>
 """
             low_res = """
@@ -500,8 +520,18 @@ if predict_btn:
 </div>
 <div class='resource-box'>
 <div class='resource-title'>Top 100 Plays</div>
-<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Best moments in history</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Best moments in NFL history</div>
 <a href='https://www.youtube.com/nfl' target='_blank' class='resource-link'>WATCH CLIPS &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>NFL Play 60</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Get active for 60 minutes a day</div>
+<a href='https://www.nfl.com/play60/' target='_blank' class='resource-link'>GET MOVING &rarr;</a>
+</div>
+<div class='resource-box'>
+<div class='resource-title'>NFL FLAG In Schools</div>
+<div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Flag football for 3M+ students in 34K schools</div>
+<a href='https://www.nflflag.com/schools' target='_blank' class='resource-link'>LEARN MORE &rarr;</a>
 </div>
 """
             selected_res = high_res if prediction == "High" else med_res if prediction == "Medium" else low_res
