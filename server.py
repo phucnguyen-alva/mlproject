@@ -9,8 +9,8 @@ scaler = joblib.load('scaler_10.joblib')  # new scaler
 class FanInput(BaseModel):
     nfl_community_care: int
     player_credibility_social: int
-    content_frequency_weekly: int
-    content_watch_likelihood: int
+    content_frequency_weekly: int  # 1-5
+    content_watch_likelihood: int  # 1-4
     has_fav_team: int
     driver_game_excitement: int
     driver_fantasy: int
