@@ -509,7 +509,7 @@ if predict_btn:
 <div class='resource-box'>
 <div class='resource-title'>Character Playbook</div>
 <div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Digital curriculum on relationships & life skills</div>
-<a href='https://www.nfl.com/causes/character-playbook/' target='_blank' class='resource-link'>EXPLORE &rarr;</a>
+<a href='https://characterplaybook.com/' target='_blank' class='resource-link'>EXPLORE &rarr;</a>
 </div>
 """
             low_res = """
