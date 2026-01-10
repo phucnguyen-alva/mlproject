@@ -508,7 +508,7 @@ if predict_btn:
             
             st.markdown(f"""
 <div style='margin-top:2rem'>
-<h3>OFFICIAL RECOMMENDATIONS</h3>
+<h3>WHAT TO WATCH?</h3>
 <div class='resource-container'>
 {selected_res}
 <div class='resource-box'>
