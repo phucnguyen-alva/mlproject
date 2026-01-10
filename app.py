@@ -482,7 +482,7 @@ if predict_btn:
 <div class='resource-box'>
 <div class='resource-title'>NFL Foundation</div>
 <div style='color:#888; font-size:0.8rem; margin-bottom:0.5rem'>Support youth football & community programs</div>
-<a href='https://www.nfl.com/causes/' target='_blank' class='resource-link'>GET INVOLVED &rarr;</a>
+<a href='https://www.nflfoundation.org/' target='_blank' class='resource-link'>GET INVOLVED &rarr;</a>
 </div>
 <div class='resource-box'>
 <div class='resource-title'>Inspire Change</div>
