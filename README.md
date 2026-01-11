@@ -1,6 +1,6 @@
 # 🏈 NFL Fan Engagement Predictor
 
-A machine learning-powered web application that predicts NFL fan engagement levels based on viewing habits, team loyalty, and league sentiment. Built as part of the MSU Foundations of AI (FoAI9) course project.
+A machine learning-powered web application that predicts NFL fan engagement levels based on viewing habits, team loyalty, and league sentiment. Built as part of the Foundations of AI (FoAI9) course project.
 
 ---
 
