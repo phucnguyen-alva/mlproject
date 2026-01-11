@@ -2,9 +2,16 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import numpy as np
+import os
 
-model = joblib.load('model_10.joblib')  # new model
-scaler = joblib.load('scaler_10.joblib')  # new scaler
+# Get the directory where server.py is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, 'model_10.joblib'))
+scaler = joblib.load(os.path.join(BASE_DIR, 'scaler_10.joblib'))
+
+model = joblib.load('src/model_10.joblib')
+scaler = joblib.load('src/scaler_10.joblib')
 
 class FanInput(BaseModel):
     nfl_community_care: int
