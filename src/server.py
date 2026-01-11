@@ -7,10 +7,10 @@ import os
 # Get the directory where server.py is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model = joblib.load(os.path.join(BASE_DIR, 'model_10.joblib'))
+model = joblib.load(os.path.join(BASE_DIR, 'logistic_regression_model.pkl'))
 scaler = joblib.load(os.path.join(BASE_DIR, 'scaler_10.joblib'))
 
-model = joblib.load('src/model_10.joblib')
+model = joblib.load('src/logistic_regression_model.pkl')
 scaler = joblib.load('src/scaler_10.joblib')
 
 class FanInput(BaseModel):
