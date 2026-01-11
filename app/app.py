@@ -422,11 +422,11 @@ if predict_btn:
             low_desc = "Did you mostly show up for the snacks and stay for the hits? Welcome to the greatest show on earth. You have felt the energy of the Super Bowl spectacle or seen the viral highlights on your feed and now you are ready to understand why millions hold their breath when the ball is in the air. Maybe you are here for the athleticism or the strategic drama or just to finally understand what everyone is yelling about at the party. Don't sweat the complex rules because every die hard fan started exactly where you are right now. The NFL is a massive unfolding story of heroes and villains and miracles. Your journey into the culture begins today. All you need to do is learn the language and find the colors you will represent for life so start your journey with the starter pack links below."
             
             # Descriptions & Class Styling
-            if prediction == "High":
+            if prediction == "Avid Fan":
                 tier_class = "tier-high"
                 tier_title = "ALL-PRO FAN"
                 tier_desc = high_desc
-            elif prediction == "Medium":
+            elif prediction == "Casual Fan":
                 tier_class = "tier-medium"
                 tier_title = "CASUAL FAN"
                 tier_desc = medium_desc
@@ -452,19 +452,18 @@ if predict_btn:
 </div>
 <div class='stat-row'>
 <div class='stat-label'>CASUAL</div>
-<div class='stat-track'><div class='stat-fill' style='width: {probs[2]*100}%'></div></div>
-<div class='stat-val'>{probs[2]:.0%}</div>
-</div>
-<div class='stat-row'>
-<div class='stat-label'>ROOKIE</div>
 <div class='stat-track'><div class='stat-fill' style='width: {probs[1]*100}%'></div></div>
 <div class='stat-val'>{probs[1]:.0%}</div>
 </div>
+<div class='stat-row'>
+<div class='stat-label'>ROOKIE</div>
+<div class='stat-track'><div class='stat-fill' style='width: {probs[2]*100}%'></div></div>
+<div class='stat-val'>{probs[2]:.0%}</div>
 </div>
 </div>
 """, unsafe_allow_html=True)
 
-            if prediction == "High":
+            if prediction == "Avid Fan":
                 st.balloons()
 
             # --- RENDER RESOURCES ---
@@ -534,7 +533,7 @@ if predict_btn:
 <a href='https://www.nflflag.com/schools' target='_blank' class='resource-link'>LEARN MORE &rarr;</a>
 </div>
 """
-            selected_res = high_res if prediction == "High" else med_res if prediction == "Medium" else low_res
+            selected_res = high_res if prediction == "Avid Fan" else med_res if prediction == "Casual Fan" else low_res
             
             st.markdown(f"""
 <div style='margin-top:2rem'>
