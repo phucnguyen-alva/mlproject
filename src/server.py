@@ -8,10 +8,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model = joblib.load(os.path.join(BASE_DIR, 'logistic_regression_model.pkl'))
-scaler = joblib.load(os.path.join(BASE_DIR, 'standard_scaler.pkl'))
-
-model = joblib.load('src/logistic_regression_model.pkl')
-scaler = joblib.load('src/standard_scaler.pkl')
+scaler = joblib.load(os.path.join(BASE_DIR, 'scaler_10.joblib'))
 
 class FanInput(BaseModel):
     nfl_community_care: int
