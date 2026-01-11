@@ -232,15 +232,13 @@ This project supports the NFL's youth health & wellness initiatives by:
 ## 👤 Author
 
 **Nguyen Minh Phuc (Alva)**  
-Michigan State University  
-ADV 225/440 — Foundations of AI  
 January 2026
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes as part of MSU coursework.
+This project is for educational purposes as part of coursework.
 
 ---
 
